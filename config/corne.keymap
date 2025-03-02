@@ -39,16 +39,16 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp LBRC  &kp LBRC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &lt 2 DOT  &trans    &kp PIPE  &kp TILDE
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR     &kp RPAR  &kp BSPC
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT     &kp LBRC  &kp LBRC
+&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LS(COMMA)  &kp LS(DOT)  &kp PIPE  &kp TILDE
                              &kp LGUI  &mo 3     &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
 
         adjust_layer {
             bindings = <
-&kp GRAVE        &kp EXCL         &kp AT           &kp HASH         &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&sys_reset       &rgb_ug RGB_EFR  &kp AT           &kp HASH         &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans       &trans     &trans    &trans     &trans    &trans    &trans
 &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans       &trans     &trans    &trans     &trans    &trans    &trans
                                                    &kp LGUI         &trans           &kp SPACE    &kp RET    &trans    &kp RALT
