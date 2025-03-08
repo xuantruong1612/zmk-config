@@ -1,7 +1,5 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
+ * XUANTRUONG
  */
 
 #include <behaviors.dtsi>
@@ -61,9 +59,9 @@
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
 &trans          &trans    &trans    &trans    &trans    &trans                                &trans   &trans      &trans    &trans      &trans      &trans
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
-&trans          &trans    &trans      &trans     &trans    &trans                            &trans    &trans    &trans    &trans    &trans    &trans
+&trans          &trans    &trans      &trans     &trans    &sys_sleep                            &trans    &trans    &trans    &trans    &trans    &trans
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
-                                                   &kp LGUI         &trans           &kp SPACE    &kp RET  &trans  &kp RALT
+                                    &kp LGUI         &trans           &kp SPACE    &kp RET  &trans  &kp RALT
                                 //`----------------------------------'                     `----------------------------------'
             >;
         };
