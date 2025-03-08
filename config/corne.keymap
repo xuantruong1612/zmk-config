@@ -1,6 +1,6 @@
 /*
- * XUÂN TRƯỜNG
- */
+* XUÂN TRƯỜNG
+*/
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -48,9 +48,9 @@
 
             bindings = <
 //,-----------------------------------------------------------------.                    ,-----------------------------------------------------------------.
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR     &kp RPAR  &kp BSPC
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                                &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR     &kp RPAR  &kp BSPC
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT     &kp LBRC  &kp LBRC
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans                                   &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT     &kp LBRC  &kp RBRC
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LS(COMMA)  &kp LS(DOT)  &kp PIPE  &kp TILDE
  //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
@@ -73,3 +73,5 @@
             >;
         };
     };
+};
+};
