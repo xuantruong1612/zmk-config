@@ -41,6 +41,20 @@
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+         >;
+    };
+
+        two_step_ahead {
+            bindings = <
+//,-----------------------------------------------------------------.                    ,-----------------------------------------------------------------.
+&sys_reset       &rgb_ug RGB_EFR  &trans           &trans           &trans           &trans       &trans   &trans  &trans    &trans  &trans  &trans
+ //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans       &trans   &trans  &trans    &trans  &trans  &trans
+ //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
+&rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans       &trans   &trans  &trans    &trans  &trans  &trans
+ //|----------+----------+----------+----------+----------+----------|                    |----------+----------+----------+----------+----------+----------|
+                                                   &kp LGUI         &trans           &kp SPACE    &kp RET  &trans  &kp RALT
+                                //`----------------------------------'                     `----------------------------------'
             >;
         };
     };
